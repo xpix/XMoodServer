@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+      <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+      <script src="js/menu-simple.js"></script>
+   </head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+  <div data-theme="a" data-role="header">
+    <a href="#menu" data-role="button" data-theme="c" data-rel="back" data-inline="true" data-icon="bars">
+      Menu
+    </a>
+    <h3>
+      XMood :: Preferences
+    </h3>
+  </div>
+  <!-- This is the hidden panel that opens to show the menu -->
+  <div data-role="panel" id="menu" data-display="push">
+    <div class="ui-panel-inner">
+      <!-- This UL is the menu, where the items will be added -->
+      <!-- Make sure you don't add any <li> or any other content inside it! -->
+      <ul data-role="listview" class="mainMenu"></ul>
+
+    </div>
+  </div>
+  <!-- /panel -->
+
+
+  <!-- Content -->
+  <div data-role="content">
+    <h3>Homepage</h3>
+     A page to display something
+  </div>
+  <!-- /Content -->
+
+
+</div>
+</body>
+</html>
+   
